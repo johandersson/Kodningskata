@@ -22,7 +22,7 @@ namespace PirateLang
 
         public String DecryptPirateString(String pirateString)
         {
-            if (pirateString == null || pirateString.Trim()=="")
+            if (string.IsNullOrWhiteSpace(pirateString))
             {
                 return "";
             }
