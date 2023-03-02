@@ -2,7 +2,7 @@
 using System.Linq;
 namespace PirateLang
 {
-    class PirateDecrypter
+    public class PirateDecrypter
     {
         public PirateDecrypter()
         {
